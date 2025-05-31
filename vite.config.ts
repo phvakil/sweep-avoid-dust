@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/sweep-avoid-dust/", // 👈 ADD THIS LINE
+  base: "/sweep-avoid-dust/",
   server: {
     host: "::",
     port: 8080,
